@@ -66,7 +66,7 @@ const Home = () => {
             <div className="center-section">
                 <div className='p-2'>
                     <h1 className='headings'>Search for a Chain</h1>
-                    <h5 className='text-center'>Please fill in lowerCase</h5>
+                    <h5 className='text-center'>(polkadot / cardano / kusama )</h5>
                 </div>
 
                 <Form >
@@ -74,7 +74,7 @@ const Home = () => {
                         <Form.Control
                             type="text"
                             placeholder="Enter chain name (e.g., Polkadot, Cardano, Kusama)"
-                            value={chainName}
+                            value={chainName.toLowerCase()}
                             onChange={(e) => setChainName(e.target.value)}
                         />
                     </Form.Group>
