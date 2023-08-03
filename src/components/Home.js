@@ -66,6 +66,7 @@ const Home = () => {
             <div className="center-section">
                 <div className='p-2'>
                     <h1 className='headings'>Search for a Chain</h1>
+                    <h5>Please fill in lowerCase</h5>
                 </div>
 
                 <Form >
